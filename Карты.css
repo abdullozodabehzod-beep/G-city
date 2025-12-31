@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+body{
+    
+    background: rgb(255, 255, 255);
+
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px;
+    gap: 100px;
+
+}
+
+
+.circle{
+    border: 5px solid rgb(48, 255, 6);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+.text-city{
+    color: rgb(21, 247, 0);
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+}
+
+.li-box{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+ul li{
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+ul li:hover{
+    color: rgb(11, 180, 11);
+}
+
+/* Банковская карта */
+
+.bank-card-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+/* Блоки карта */
+
+.box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    width: 1000px;
+    height: 700px;
+
+}
+
+
+.img-card {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+
+}
+
+/* about box1 */
+
+.box1 img{
+    border-radius: 50px;
+    
+}
+
+
+
+
+.box1 {
+    background: rgb(255, 216, 194);
+    border-radius: 20% 20% 0 20%;
+    transition: all 0.3s ease;
+
+}
+
+
+
+.box1 p{
+    color: rgb(255, 168, 117);
+   text-align: end;
+   position: relative;
+   top: 10%;
+   left: -20px;
+   opacity: 0;
+   font-size: 30px;
+   font-weight: bold;
+   transition: all 0.3s ease;
+}
+
+.box1:hover{
+    border-radius: 20% 20% 50% 20%;
+
+}
+
+.box1:hover p{
+    opacity: 1;
+    
+}
+
+/* about box2 */
+
+
+.box2 {
+    background: rgb(173, 129, 255);
+    border-radius: 20% 20% 20% 0;
+    transition: all 0.3s ease;
+    
+}
+
+.box2 p{
+   color: rgb(142, 20, 255);
+   text-align: end;
+   position: relative;
+   top: 10%;
+   left: -20px;
+   opacity: 0;
+   font-size: 30px;
+   font-weight: bold;
+   transition: all 0.3s ease;
+}
+
+
+.box2:hover{
+    border-radius: 20% 20% 50% 0;
+
+}
+
+.box2:hover p{
+    opacity: 1;
+    
+}
+
+.box2 img{
+    border-radius: 50px;
+    
+}
+
+
+/* about box3 */
+
+.box3 {
+    background: rgb(84, 220, 230);
+    border-radius: 20% 0 20% 20%;
+    transition: all 0.3s ease;
+}
+
+.box3 p{
+   color: aqua;
+   text-align: end;
+   position: relative;
+   top: 10%;
+   left: -20px;
+   opacity: 0;
+   font-size: 30px;
+   font-weight: bold;
+   transition: all 0.3s ease;
+}
+
+.box3:hover{
+    border-radius: 20% 0 50% 20%;
+
+}
+
+.box3:hover p{
+    opacity: 1;
+    
+}
+
+.box3 img{
+    border-radius: 50px;
+    
+}
+
+/* about box4 */
+
+.box4 {
+    background: rgb(25, 77, 45);
+    border-radius: 0 20% 20% 20%;
+    transition: all 0.3s ease;
+}
+
+.box4 p{
+    color: rgb(27, 182, 27);
+   text-align: end;
+   position: relative;
+   top: 13%;
+   left: -20px;
+   opacity: 0;
+   font-size: 30px;
+   font-weight: bold;
+   transition: all 0.3s ease;
+}
+
+.box4:hover{
+    border-radius: 0 20% 50% 20%;
+
+}
+
+.box4:hover p{
+    opacity: 1;
+    
+}
+
+.box4 img{
+    border-radius: 50px;
+    
+}
+
+/* Order */
+
+.input-order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bank-card-text1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.order-flex{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10%;
+    margin: 50px;
+}
+
+.input input{
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(255, 151, 33);
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    background: none;
+
+}
+
+.select{
+    text-align: center;
+    margin: 10px;
+    border: 3px solid rgb(31, 212, 25);
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    left: 5px;
+}
+
+
+.order-select{
+    margin: 10px;
+    border: 2px solid rgb(255, 151, 33);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    left: 5px;
+}
+
+
+#text-passport{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-flex-pt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-pt{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+#disign{
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background: rgb(255, 151, 33);
+    transition: box-shadow 0.5s ease;
+    border: 3px solid white;
+
+}
+
+#disign:hover{
+    box-shadow: 0 0 18px rgb(255, 151, 33);
+
+}
+
+#button-order{
+   padding: 3px;
+   border-radius: 5px;
+   height: 30px;
+   width: 80px;
+   margin-left: 500px;
+   margin: 20px;
+   border-color: rgb(255, 189, 23);
+   font-size: 16px;
+   margin-left: 550px;
+   background: rgb(255, 140, 0);
+}
+
+.card-flex{
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-flex
+
+
+
+
+
+
+
+
+
+
+
